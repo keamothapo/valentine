@@ -302,13 +302,15 @@ export default function App() {
               <p className="popup-disclaimer">
                 Disclaimer, I am an unemployed graduate so lower your expectations sir 😂
               </p>
-               <button className="btn btn-yesmaam" onClick={() => setPopup(null)}>
-              I'm excited!
-            </button>
             </div>
           </div>
         </>
       )}
+
+      {/* ── Footer ────────────────────────────────────────────────────────── */}
+      <footer className="footer">
+        Kea wa Rea 2026 &middot; Made with tons of love and a dash of nerdy 🧪💕
+      </footer>
     </div>
   )
 }
